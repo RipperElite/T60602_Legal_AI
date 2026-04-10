@@ -1,0 +1,24 @@
+# Ignore the CASIA v2 dataset directory
+CASIA2/
+
+# Ignore any binary files
+*.bin
+# Python caches and environments
+__pycache__/
+*.pyc
+venv/
+env/
+miniconda3/
+
+# Hackathon temporary files
+temp_upload.jpg
+temp.jpg
+evidence_report*.txt
+
+# Security - NEVER upload these!
+encryption_key.key
+secret.key
+vault/
+
+# Model files (Optional)
+# tampering_model.pkl  <-- Uncomment this ONLY if your .pkl file is larger than 100MB (GitHub's limit). If it is small, keep it so the app works instantly on other devices!
